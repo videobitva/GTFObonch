@@ -1,10 +1,8 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.chrome.options import Options as ChromeOptions
-from selenium.webdriver.edge.options import Options as EdgeOptions
 from selenium.common.exceptions import NoSuchElementException
-from time import sleep, time
+from time import sleep
 from datetime import datetime
 
 BONCH_USERNAME = ""
